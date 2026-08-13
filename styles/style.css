@@ -108,3 +108,47 @@ nav{
     verticle-align: middle;
 }
 /*--------XXXXXXXXXXXX-----*/
+
+/*---------about me section------- */
+#about-me{
+    padding: 130px 230px;
+    
+}
+#about-me .about-container{
+    background-color: #fff8f3FF;
+    padding: 131px 157px 137px 156px;
+}
+#about-me .about-container .about-heading h2{
+    text-align: center;
+    padding-bottom: 30px;
+    color: #181818FF;
+    font-weight: 700;
+    font-size: 35px;
+}
+#about-me .about-container .about-heading p{
+    text-align: center;
+    color: #757575FF;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+#about-me .about-container .about-info{
+    display: flex;
+    justify-content: space-between;
+}
+#about-me .about-container .about-info .about-info-card
+{
+    text-align: center;
+} 
+#about-me .about-container .about-info .about-info-card h4{
+   color: #474747FF;
+   font-size: 20px;
+   font-weight: 400;
+}
+#about-me .about-container .about-info .about-info-card p{
+    color: #474747FF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/*--------XXXXXXXXXXXX-----*/
