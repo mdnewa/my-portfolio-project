@@ -13,11 +13,34 @@
 header {
     padding-top: 50px;
    background-color: #fff8f3;
+   background: url("../images/developer.png"),url("../images/header_bg.png"),#fff8f3;
+   background-repeat: no-repeat,no-repeat;
+   background-position:left bottom,bottom right;
 }
 .orrange-button{
-
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #fd6e0a;
+    color: #fff;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.white-button{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #fff;
+    color: #fd6e0a;
+    border: 1px solid #fd6e0a;
+    padding: 18px 35px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 /*-------XXXXXXXXXX------ */
+
+/*--------navbar styles-----*/
+
 nav{
     max-width: 1140px;
     width: 71%;
@@ -27,7 +50,7 @@ nav{
     align-items: center;
 }
 .logo h2{
-    font-color: #181818FF;
+    color: #181818FF;
     font-size: 45px;
     font-style: normal;
     font-weight: 800;
@@ -47,12 +70,41 @@ nav{
     color: #474747;
     
 }
-.orrange-button{
-    font-size: 20px;
-    font-weight: 600;
-    background-color: #fd6e0a;
-    color: #fff;
-    border: none;
-    padding: 18px 35px;
-    border-radius: 5px;
+/*--------XXXXXXXXXXXX-----*/
+/*--------banner styles-----*/
+
+.banner{
+    /* border: 1px solid red; */
+   margin:30px 38px 0px 190px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
 }
+.banner-content h2{
+    color: #474747FF;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.banner-content h1{
+    font-size: 85px;
+    color: #181818FF;
+    font-weight: 700;
+     white-space: nowrap;
+     margin-bottom: 34px;
+}
+.banner-content p{
+    font-size: 17px;
+    color: #757575FF;
+    font-weight: 400;
+    margin-bottom: 30px; 
+}
+.banner-content .banner-button{
+    display: flex;
+    gap: 20px;
+}
+.banner-img img{
+    max-width: 570px;
+    verticle-align: middle;
+}
+/*--------XXXXXXXXXXXX-----*/
