@@ -15,7 +15,7 @@ header {
    background-color: #fff8f3;
    background: url("../images/developer.png"),url("../images/header_bg.png"),#fff8f3;
    background-repeat: no-repeat,no-repeat;
-   background-position:left bottom,bottom right;
+   background-position: 23px 38px,bottom right;
 }
 .orrange-button{
     font-size: 20px;
@@ -292,5 +292,69 @@ nav{
 /*--------XXXXXXXXXXXX-----*/
 /*---------Footer Section------- */
 
-
+footer{
+    padding: 130px 0px;
+    background: #fff8f3FF;
+}
+footer .footer-container{
+    max-width: 1140px;
+    width: 71%;
+    margin: 0 auto;
+    display: flex;
+    
+}
+footer .footer-connect{
+    max-width: 562px;
+    width: 100%;
+}
+footer .footer-message{
+    padding-left: 117px;
+}
+.footer-form input{
+    display: block;
+}
+.footer-connect h2{
+    color: #181818FF;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+.footer-connect p{
+      color: #474747FF;
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 30px;
+}
+.footer-icon a{
+    cursor: pointer;
+}
+.footer-icon .icon{
+    height: 24px;
+    width: 24px;
+    margin-right: 24px;
+}
+.footer-message h2{
+    color: #181818FF;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 34px;
+}
+.footer-message .footer-form input{
+    width: 461px;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    border: none;
+    color: #757575FF;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-message .footer-form textarea{
+    width: 461px;
+    padding: 18px 0px 134px 30px;
+    border: none;
+    color: #757575FF;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
 /*--------XXXXXXXXXXXX-----*/
